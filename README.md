@@ -36,7 +36,7 @@ You can find the source code for this project on [GitHub](https://github.com/Mun
 
 ## Author
 
-- [Your Name](https://github.com/Muneer-ul-hassan)
+- [Muneer-ul-hassan](https://github.com/Muneer-ul-hassan)
 
 ## License
 
