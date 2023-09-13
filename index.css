@@ -1,0 +1,120 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define general styles for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Styles for the main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+/* Styles for navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #aaa;
+}
+
+/* Hide sections by default */
+.hidden {
+    display: none;
+}
+
+/* Styles for the account information section */
+.account-info {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the deposit container */
+.deposit-container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style for all transaction sections */
+.transaction-section {
+    margin-top: 20px;
+}
+
+/* Styles for the transaction container */
+.transaction-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.transaction-container h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Styles for form groups and labels */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+/* Styles for form controls */
+.form-control {
+    background-color: #111;
+    color: #fff;
+}
+
+/* Styles for primary buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
